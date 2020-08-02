@@ -5,7 +5,7 @@
 # Site
 title: Saiki's home
 subtitle: '快乐的鱼塘'
-description: ''
+description: '一个卑微的前端开发程序猿，用来吐槽和记录学习心得的网站'
 keywords: ['前端', 'JS', 'Vue', 'Game', '动漫']
 author: Saiki
 language: zh
@@ -13,7 +13,7 @@ timezone: 'Asia/Shanghai'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://blog.saiki.xyz/
+url: https://blog.saiki.xyz
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:

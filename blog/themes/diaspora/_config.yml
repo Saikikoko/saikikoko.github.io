@@ -1,6 +1,6 @@
 # 头部菜单，title: link
 menu:
-  首页: /
+  首页: ''
   分类: /categories
   标签: /tags
   归档: /archives  
@@ -43,11 +43,11 @@ hitokoto: true
 
 # 链接(可选:facebook,twitter,github,wechat,email)
 links:
-    facebook: /
-    twitter: /
-    github: /
+    # facebook: /
+    # twitter: /
+    github: https://github.com/Saikikoko/
     wechat: /img/logo.png
-    email: mailto:xxxx@gmail.com
+    email: mailto:shengbiao199637@gmail.com
   
 # 备案
 beian: 
@@ -56,7 +56,7 @@ beian:
     # 是否在主页面最底下显示备案信息(虽然丑，但是完全满足规定要求)
     enableFooter: false
     # 备案号
-    beianInfo: 冀ICP备xxxxxxx号
+    # beianInfo: 冀ICP备xxxxxxx号
     # 链接地址
     link: http://www.beian.miit.gov.cn
 
@@ -65,27 +65,27 @@ gitalk:
     # 是否启用评论功能
     enable: true
     # 是否自动展开评论框
-    autoExpand: true
+    autoExpand: false
     # 应用编号
-    clientID: ''
+    clientID: '0f5646a9b34a74306e5f'
     # 应用秘钥
-    clientSecret: ''
+    clientSecret: '54f987580c665eddf734fdfd4128909cee7704e1'
     # issue仓库名
-    repo: ''
+    repo: 'saikikoko.github.io'
     # Github名
-    owner: ''
+    owner: 'Saikikoko'
     # Github名
-    admin: ['']
+    admin: ['Saikikoko']
     # Ensure uniqueness and length less than 50
     id: location.pathname
     # Facebook-like distraction free mode
     distractionFreeMode: false
 
 # 网站关键字
-keywords: Fechin
+keywords: Saiki
 
 # 要使用google_analytics进行统计的话，这里需要配置ID
-google_analytics: 
+google_analytics: UA-174234105-1
 
 # 网站ico
 favicon: /img/favicon.png

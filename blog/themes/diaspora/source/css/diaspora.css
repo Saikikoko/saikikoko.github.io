@@ -14,6 +14,10 @@ body.loading:before {display:block;}
   50% {-moz-transform:scale(1.0);}
   100% {-moz-transform:scale(0.3);}
 }
+@keyframes waveFlow {
+  from { background-position-x: -10px, 0; }
+  to { background-position-x: -30px, -20px; }
+}
 body.loading #container,body.loading #single,body.loading .nav {opacity:0;}
 html.loading,body.loading {height:100%;overflow:hidden;}
 a,a:hover {text-decoration:none;}
@@ -38,7 +42,8 @@ body.mu .image-logo {background-color:black;}
 #post0 h2 + p {color:#fff;font-size:14px;margin-top:30px;}
 .post {margin:100px auto 0;width:1200px;position:relative;}
 .post > a {display:inline-block;width:680px;height:440px;overflow:hidden;position:relative;z-index:3;}
-.else {position:absolute;background:#fff;text-align:left;top:20px;height:398px;width:498px;border:1px solid #eaeaea;}
+.post > a img {margin:0 auto; border-radius: 2px}
+.else {position:absolute;background:#fff;text-align:left;top:20px;height:398px;width:498px;border:1px solid #eaeaea;border-radius: 6px;}
 .post:nth-child(odd) {text-align:left;}
 .post:nth-child(even) {text-align:right;}
 .post:nth-child(odd) .else {left:660px;}
@@ -46,6 +51,7 @@ body.mu .image-logo {background-color:black;}
 .else p:first-child {color:#999;font-size:12px;margin:80px 0 0 80px;}
 .else h3 {font-size:30px;line-height:1.1;margin:10px 100px 0 80px;}
 .else h3 a {color:#333;}
+.else h3 a:hover{background: radial-gradient(circle at 10px -7px,transparent 8px,currentColor 0,currentColor 9px,transparent 0) repeat-x,radial-gradient(circle at 10px 27px,transparent 8px,currentColor 0,currentColor 9px,transparent 0) repeat-x;background-size: 20px 20px;background-position: -10px calc(100% + 16px),0 calc(100% - 4px);-webkit-animation: waveFlow-data-v-241ea8f0 1s linear infinite;animation: waveFlow 1s linear infinite;}
 .else h3 + p {color:#555;margin:10px 100px 0 80px;font-size:14px;line-height:1.8;}
 .here {position:absolute;left:80px;bottom:80px;color:#999;font-size:13px;}
 .here span {display:inline-block;vertical-align:middle;margin-right:10px;font-family:"icomoon","Hiragino Sans GB","Hiragino Sans GB W3","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;}
@@ -273,11 +279,12 @@ pre .keyword,pre .javascript .function {color:#cc99cc;}
   #post0 h2 {font-size:20px;}
   .post {width:100%;margin-top:60px;background:#fff;padding-bottom:30px;border-bottom:1px solid #eaeaea;}
   .post > a {display:block;margin:0 auto;width:100%;height:auto;}
-  .post > a img {margin:0 auto;}
+  .post > a img {margin:0 auto; border-radius: 2px}
   .else {height:auto;position:static;width:100%;margin:0 auto;background:transparent;border:none;}
   .else p:first-child {margin:30px 0 0 20px;}
   .else h3 {font-size:24px;margin:10px 30px 0 20px;}
   .else h3 + p {margin:10px 30px 0 20px;}
+  .else h3 a:hover{background: radial-gradient(circle at 10px -7px,transparent 8px,currentColor 0,currentColor 9px,transparent 0) repeat-x,radial-gradient(circle at 10px 27px,transparent 8px,currentColor 0,currentColor 9px,transparent 0) repeat-x;background-size: 20px 20px;background-position: -10px calc(100% + 16px),0 calc(100% - 4px);-webkit-animation: waveFlow-data-v-241ea8f0 1s linear infinite;animation: waveFlow 1s linear infinite;}
   .here {position:static;margin:20px 0 20px 20px;}
   .article{width:100%;}
   .article .main{width:94%;}

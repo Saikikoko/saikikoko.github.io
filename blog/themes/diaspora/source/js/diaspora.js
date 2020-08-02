@@ -610,7 +610,7 @@ $(function() {
 					  repo: comment.data('r'),
 					  owner: comment.data('o'),
 					  admin: comment.data('a'),
-					  id: decodeURI(window.location.pathname),
+					  id: decodeURI(window.location.pathname.split("/").pop().substring(0, 49)),
 					  distractionFreeMode: comment.data('d')
 					})
 					$(".comment").removeClass("link")

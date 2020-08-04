@@ -67,9 +67,9 @@ gitalk:
     # 是否自动展开评论框
     autoExpand: false
     # 应用编号
-    clientID: '0f5646a9b34a74306e5f'
+    clientID: 
     # 应用秘钥
-    clientSecret: '54f987580c665eddf734fdfd4128909cee7704e1'
+    clientSecret: 
     # issue仓库名
     # repo: 'saikikoko.github.io'
     repo: 'blogImgStorage'
@@ -86,7 +86,7 @@ gitalk:
 keywords: Saiki
 
 # 要使用google_analytics进行统计的话，这里需要配置ID
-google_analytics: UA-174234105-1
+google_analytics: 
 
 # 网站ico
 favicon: /img/favicon.png

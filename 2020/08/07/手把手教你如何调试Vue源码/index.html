@@ -10,9 +10,9 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="google" content="notranslate" />
     <meta name="keywords" content="Saiki,"> 
-    <meta name="description" content="一个卑微的前端开发程序猿，用来吐槽和记录学习心得的网站,彩蛋:egg:：手把手教你😏如何调试Vue源码调试环境准备首先，我们要准备一下调试环境（这里不会细讲git有关默认的操作）。
+    <meta name="description" content="一个卑微的前端开发程序猿，用来吐槽和记录学习心得的网站,彩蛋🥚：手把手教你😏如何调试Vue源码调试环境准备首先，我们要准备一下调试环境（这里不会细讲git有关默认的操作）。
 
-首先去Vue官方github仓库fork一份源码到自己的仓库（没有账,"> 
+首先去Vue官方github仓库fork一份源码到自己的仓库（没有账户，先,"> 
     <meta name="author" content="Saiki"> 
     <link rel="alternative" href="atom.xml" title="Saiki&#39;s home" type="application/atom+xml"> 
     <link rel="icon" href="/img/favicon.png"> 
@@ -66,7 +66,7 @@
 
         </div>
         <div class="content markdown">
-            <h2 id="彩蛋-egg-：手把手教你😏如何调试Vue源码"><a href="#彩蛋-egg-：手把手教你😏如何调试Vue源码" class="headerlink" title="彩蛋:egg:：手把手教你😏如何调试Vue源码"></a>彩蛋:egg:：手把手教你😏如何调试Vue源码</h2><h4 id="调试环境准备"><a href="#调试环境准备" class="headerlink" title="调试环境准备"></a>调试环境准备</h4><p>首先，我们要准备一下调试环境（这里不会细讲git有关默认的操作）。</p>
+            <h2 id="彩蛋🥚：手把手教你😏如何调试Vue源码"><a href="#彩蛋🥚：手把手教你😏如何调试Vue源码" class="headerlink" title="彩蛋🥚：手把手教你😏如何调试Vue源码"></a>彩蛋🥚：手把手教你😏如何调试Vue源码</h2><h4 id="调试环境准备"><a href="#调试环境准备" class="headerlink" title="调试环境准备"></a>调试环境准备</h4><p>首先，我们要准备一下调试环境（这里不会细讲git有关默认的操作）。</p>
 <ol>
 <li><p>首先去Vue官方github仓库fork一份源码到自己的仓库（没有账户，先自行创建一个）</p>
 </li>
@@ -80,7 +80,7 @@
 <li><p>运行npm run dev，它会帮助我们在dist目录下，打包一份带有映射关系的Vue.js文件，这对我们之后调试源码非常有帮助</p>
 </li>
 </ol>
-<p>好了，如果以上步骤都完成了，我们就可以愉快的开始调试了:happy:，:rocket:起飞！</p>
+<p>好了，如果以上步骤都完成了，我们就可以愉快的开始调试了，🚀起飞！</p>
 <h4 id="简单看看new-Vue干了什么"><a href="#简单看看new-Vue干了什么" class="headerlink" title="简单看看new Vue干了什么"></a>简单看看new Vue干了什么</h4><p>我们在项目example目下新建一个test目录，之后的测试用例都会写在该目录下。好了，开始动手开干吧！</p>
 <p>编写一个<code>01-new Vue.html</code>文件</p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">&quot;en&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;UTF-8&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;viewport&quot;</span> <span class="attr">content</span>=<span class="string">&quot;width=device-width, initial-scale=1.0&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">title</span>&gt;</span>Vue<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;../../dist/vue.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;app&quot;</span>&gt;</span></span><br><span class="line">    &#123;&#123;message&#125;&#125;</span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="javascript">    <span class="keyword">const</span> app = <span class="keyword">new</span> Vue(&#123;</span></span><br><span class="line"><span class="javascript">      el: <span class="string">&quot;#app&quot;</span>,</span></span><br><span class="line">      data: &#123;</span><br><span class="line"><span class="javascript">        message: <span class="string">&quot;hello Vue&quot;</span></span></span><br><span class="line">      &#125;</span><br><span class="line">    &#125;)</span><br><span class="line">  <span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
@@ -133,7 +133,7 @@
     </div>
     
         <div class='side'>
-			<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%BD%A9%E8%9B%8B-egg-%EF%BC%9A%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%F0%9F%98%8F%E5%A6%82%E4%BD%95%E8%B0%83%E8%AF%95Vue%E6%BA%90%E7%A0%81"><span class="toc-number">1.</span> <span class="toc-text">彩蛋:egg:：手把手教你😏如何调试Vue源码</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%B0%83%E8%AF%95%E7%8E%AF%E5%A2%83%E5%87%86%E5%A4%87"><span class="toc-number">1.0.1.</span> <span class="toc-text">调试环境准备</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%AE%80%E5%8D%95%E7%9C%8B%E7%9C%8Bnew-Vue%E5%B9%B2%E4%BA%86%E4%BB%80%E4%B9%88"><span class="toc-number">1.0.2.</span> <span class="toc-text">简单看看new Vue干了什么</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%80%BB%E7%BB%93"><span class="toc-number">1.0.3.</span> <span class="toc-text">总结</span></a></li></ol></li></ol></li></ol>	
+			<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%BD%A9%E8%9B%8B%F0%9F%A5%9A%EF%BC%9A%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%F0%9F%98%8F%E5%A6%82%E4%BD%95%E8%B0%83%E8%AF%95Vue%E6%BA%90%E7%A0%81"><span class="toc-number">1.</span> <span class="toc-text">彩蛋🥚：手把手教你😏如何调试Vue源码</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%B0%83%E8%AF%95%E7%8E%AF%E5%A2%83%E5%87%86%E5%A4%87"><span class="toc-number">1.0.1.</span> <span class="toc-text">调试环境准备</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%AE%80%E5%8D%95%E7%9C%8B%E7%9C%8Bnew-Vue%E5%B9%B2%E4%BA%86%E4%BB%80%E4%B9%88"><span class="toc-number">1.0.2.</span> <span class="toc-text">简单看看new Vue干了什么</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%80%BB%E7%BB%93"><span class="toc-number">1.0.3.</span> <span class="toc-text">总结</span></a></li></ol></li></ol></li></ol>	
         </div>
     
 </div>

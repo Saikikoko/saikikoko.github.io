@@ -19,23 +19,9 @@
 ]]></content>
   </entry>
   <entry>
-    <title>勿忘初心，方得始终</title>
-    <url>/2020/08/02/%E5%8B%BF%E5%BF%98%E5%88%9D%E5%BF%83/</url>
-    <content><![CDATA[<h4 id="简单聊一聊为什么打算开始写博客？"><a href="#简单聊一聊为什么打算开始写博客？" class="headerlink" title="简单聊一聊为什么打算开始写博客？"></a>简单聊一聊为什么打算开始写博客？</h4><p>大家可能都知道费曼学习法，费曼学习法宗旨就是已教促学。如果一件技术你不仅自己学会了，而且能把它言简意赅地表述出来并教给别人，那么你一定真正把它融会贯通了。</p>
-<p>作为一个前端技术开发人员，大家都知道最近几年，前端社区蓬勃发展，各种新技术，新概念层出不穷，所以笔者想通过写文章的方式，来记录自己的学习过程，分享自己的学习经验，帮助自己掌握的更加深入的同时，期望也能帮助到浏览到我写的文章的同样渴望进步的你们。</p>
-<p>希望以此为起点，砥砺前行！！！</p>
-]]></content>
-      <categories>
-        <category>杂谈</category>
-      </categories>
-      <tags>
-        <tag>聊聊</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>手把手教你如何调试Vue源码</title>
+    <title>彩蛋🥚：手把手教你😏如何调试Vue源码</title>
     <url>/2020/08/07/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E5%A6%82%E4%BD%95%E8%B0%83%E8%AF%95Vue%E6%BA%90%E7%A0%81/</url>
-    <content><![CDATA[<h2 id="彩蛋🥚：手把手教你😏如何调试Vue源码"><a href="#彩蛋🥚：手把手教你😏如何调试Vue源码" class="headerlink" title="彩蛋🥚：手把手教你😏如何调试Vue源码"></a>彩蛋🥚：手把手教你😏如何调试Vue源码</h2><h4 id="调试环境准备"><a href="#调试环境准备" class="headerlink" title="调试环境准备"></a>调试环境准备</h4><p>首先，我们要准备一下调试环境（这里不会细讲git有关默认的操作）。</p>
+    <content><![CDATA[<h4 id="调试环境准备"><a href="#调试环境准备" class="headerlink" title="调试环境准备"></a>调试环境准备</h4><p>首先，我们要准备一下调试环境（这里不会细讲git有关的操作）。</p>
 <ol>
 <li><p>首先去Vue官方github仓库fork一份源码到自己的仓库（没有账户，先自行创建一个）</p>
 </li>
@@ -54,7 +40,7 @@
 <p>编写一个<code>01-new Vue.html</code>文件</p>
 <figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">&quot;en&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;UTF-8&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;viewport&quot;</span> <span class="attr">content</span>=<span class="string">&quot;width=device-width, initial-scale=1.0&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">title</span>&gt;</span>Vue<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;../../dist/vue.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;app&quot;</span>&gt;</span></span><br><span class="line">    &#123;&#123;message&#125;&#125;</span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="javascript">    <span class="keyword">const</span> app = <span class="keyword">new</span> Vue(&#123;</span></span><br><span class="line"><span class="javascript">      el: <span class="string">&quot;#app&quot;</span>,</span></span><br><span class="line">      data: &#123;</span><br><span class="line"><span class="javascript">        message: <span class="string">&quot;hello Vue&quot;</span></span></span><br><span class="line">      &#125;</span><br><span class="line">    &#125;)</span><br><span class="line">  <span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
-<p>在浏览器中打开编写的测试用例，然后打开控制台，找到我们写的测试用例文件，然后在<code>new Vue</code>处打上断点，接着刷新浏览器，我们就进入调试模式了，具体的调试Chrome步骤，又不熟悉的可以看看这篇文章，<a href="https://juejin.im/post/6844903877532205064">Chrome 专家调试法</a></p>
+<p>在浏览器中打开编写的测试用例，然后打开控制台，找到我们写的测试用例文件，然后在<code>new Vue</code>处打上断点，接着刷新浏览器，我们就进入调试模式了，具体的调试Chrome步骤，有不熟悉的可以看看这篇文章，<a href="https://juejin.im/post/6844903877532205064">Chrome 专家调试法</a></p>
 <p>打断点，进入new Vue函数里面后，看到如下代码</p>
 <figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">Vue</span> (<span class="params">options</span>) </span>&#123;</span><br><span class="line">  <span class="keyword">if</span> (process.env.NODE_ENV !== <span class="string">&#x27;production&#x27;</span> &amp;&amp;</span><br><span class="line">    !(<span class="built_in">this</span> <span class="keyword">instanceof</span> Vue)</span><br><span class="line">  ) &#123;</span><br><span class="line">    warn(<span class="string">&#x27;Vue is a constructor and should be called with the `new` keyword&#x27;</span>)</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="built_in">this</span>._init(options)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
@@ -73,6 +59,20 @@
       </categories>
       <tags>
         <tag>Vue</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>勿忘初心，方得始终</title>
+    <url>/2020/08/02/%E5%8B%BF%E5%BF%98%E5%88%9D%E5%BF%83/</url>
+    <content><![CDATA[<h4 id="简单聊一聊为什么打算开始写博客？"><a href="#简单聊一聊为什么打算开始写博客？" class="headerlink" title="简单聊一聊为什么打算开始写博客？"></a>简单聊一聊为什么打算开始写博客？</h4><p>大家可能都知道费曼学习法，费曼学习法宗旨就是已教促学。如果一件技术你不仅自己学会了，而且能把它言简意赅地表述出来并教给别人，那么你一定真正把它融会贯通了。</p>
+<p>作为一个前端技术开发人员，大家都知道最近几年，前端社区蓬勃发展，各种新技术，新概念层出不穷，所以笔者想通过写文章的方式，来记录自己的学习过程，分享自己的学习经验，帮助自己掌握的更加深入的同时，期望也能帮助到浏览到我写的文章的同样渴望进步的你们。</p>
+<p>希望以此为起点，砥砺前行！！！</p>
+]]></content>
+      <categories>
+        <category>杂谈</category>
+      </categories>
+      <tags>
+        <tag>聊聊</tag>
       </tags>
   </entry>
 </search>

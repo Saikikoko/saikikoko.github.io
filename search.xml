@@ -13,6 +13,7 @@
 <li><a href="https://mp.weixin.qq.com/s/tsaSfAged0yO7hKkGGQbtw">抄笔记：尤雨溪在Vue3.0 Beta直播里聊到了这些…</a></li>
 <li><a href="https://mp.weixin.qq.com/s/synjBGTEe1YVMSDGaTc5pQhttps://mp.weixin.qq.com/s/synjBGTEe1YVMSDGaTc5pQ">Vue开发必须知道的36个技巧</a></li>
 <li><a href="https://mp.weixin.qq.com/s/z5kAkyAzsj6erfWUQSN3UA">Vue源码解析，keep-alive是如何实现缓存的？</a></li>
+<li><a href="https://mp.weixin.qq.com/s/CPE11TSmXwtMVuDy5H_Bew">Vue超好玩的新特性：在CSS中引入JS变量</a></li>
 </ul>
 <h4 id="前端安全"><a href="#前端安全" class="headerlink" title="前端安全"></a>前端安全</h4><ul>
 <li><a href="https://mp.weixin.qq.com/s/w0N-jxJ7S6C7bFC8g3NP3A">为什么cookie会有httponly属性?真实案例解释XSS的三种攻击</a></li>
@@ -45,6 +46,20 @@
 ]]></content>
   </entry>
   <entry>
+    <title>勿忘初心，方得始终</title>
+    <url>/2020/08/02/%E5%8B%BF%E5%BF%98%E5%88%9D%E5%BF%83/</url>
+    <content><![CDATA[<h4 id="简单聊一聊为什么打算开始写博客？"><a href="#简单聊一聊为什么打算开始写博客？" class="headerlink" title="简单聊一聊为什么打算开始写博客？"></a>简单聊一聊为什么打算开始写博客？</h4><p>大家可能都知道费曼学习法，费曼学习法宗旨就是已教促学。如果一件技术你不仅自己学会了，而且能把它言简意赅地表述出来并教给别人，那么你一定真正把它融会贯通了。</p>
+<p>作为一个前端技术开发人员，大家都知道最近几年，前端社区蓬勃发展，各种新技术，新概念层出不穷，所以笔者想通过写文章的方式，来记录自己的学习过程，分享自己的学习经验，帮助自己掌握的更加深入的同时，期望也能帮助到浏览到我写的文章的同样渴望进步的你们。</p>
+<p>希望以此为起点，砥砺前行！！！</p>
+]]></content>
+      <categories>
+        <category>杂谈</category>
+      </categories>
+      <tags>
+        <tag>聊聊</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>npm包发布</title>
     <url>/2020/08/27/npm%E5%8C%85%E5%8F%91%E5%B8%83/</url>
     <content><![CDATA[<ol>
@@ -75,20 +90,6 @@
       </categories>
       <tags>
         <tag>node</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>勿忘初心，方得始终</title>
-    <url>/2020/08/02/%E5%8B%BF%E5%BF%98%E5%88%9D%E5%BF%83/</url>
-    <content><![CDATA[<h4 id="简单聊一聊为什么打算开始写博客？"><a href="#简单聊一聊为什么打算开始写博客？" class="headerlink" title="简单聊一聊为什么打算开始写博客？"></a>简单聊一聊为什么打算开始写博客？</h4><p>大家可能都知道费曼学习法，费曼学习法宗旨就是已教促学。如果一件技术你不仅自己学会了，而且能把它言简意赅地表述出来并教给别人，那么你一定真正把它融会贯通了。</p>
-<p>作为一个前端技术开发人员，大家都知道最近几年，前端社区蓬勃发展，各种新技术，新概念层出不穷，所以笔者想通过写文章的方式，来记录自己的学习过程，分享自己的学习经验，帮助自己掌握的更加深入的同时，期望也能帮助到浏览到我写的文章的同样渴望进步的你们。</p>
-<p>希望以此为起点，砥砺前行！！！</p>
-]]></content>
-      <categories>
-        <category>杂谈</category>
-      </categories>
-      <tags>
-        <tag>聊聊</tag>
       </tags>
   </entry>
   <entry>

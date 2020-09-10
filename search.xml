@@ -1,6 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>frontend one piece</title>
+    <url>/2020/08/10/frontend-one-piece/</url>
+    <content><![CDATA[<h2 id="前端好文收藏向"><a href="#前端好文收藏向" class="headerlink" title="前端好文收藏向"></a>前端好文收藏向</h2><p>去寻找吧，前端大秘宝one piece，我把所有东西都留在那。前端就此进入大航海时代🐶</p>
+<h4 id="webpack"><a href="#webpack" class="headerlink" title="webpack"></a>webpack</h4><ul>
+<li><a href="https://mp.weixin.qq.com/s/6sV4wF5LwSXQhd-OKjwkOg">webpack最佳配置指北</a></li>
+<li><a href="https://mp.weixin.qq.com/s/o3flb6peR2VL9VAKYRQwZQ">玩转 webpack，使你的打包速度提升 90%</a></li>
+<li><a href="https://mp.weixin.qq.com/s/DJrmP4KStjujtydQoh1Ncg">你的 import 被 webpack 编译成了什么？</a></li>
+<li><a href="https://mp.weixin.qq.com/s/mcQuU7PWxczvnTGFw5W1FQ">Webpack漫谈</a></li>
+</ul>
+<h4 id="Vue"><a href="#Vue" class="headerlink" title="Vue"></a>Vue</h4><ul>
+<li><a href="https://mp.weixin.qq.com/s/tsaSfAged0yO7hKkGGQbtw">抄笔记：尤雨溪在Vue3.0 Beta直播里聊到了这些…</a></li>
+<li><a href="https://mp.weixin.qq.com/s/synjBGTEe1YVMSDGaTc5pQ">Vue开发必须知道的36个技巧</a></li>
+<li><a href="https://mp.weixin.qq.com/s/z5kAkyAzsj6erfWUQSN3UA">Vue源码解析，keep-alive是如何实现缓存的？</a></li>
+<li><a href="https://mp.weixin.qq.com/s/CPE11TSmXwtMVuDy5H_Bew">Vue超好玩的新特性：在CSS中引入JS变量</a></li>
+</ul>
+<h4 id="前端安全"><a href="#前端安全" class="headerlink" title="前端安全"></a>前端安全</h4><ul>
+<li><a href="https://mp.weixin.qq.com/s/w0N-jxJ7S6C7bFC8g3NP3A">为什么cookie会有httponly属性?真实案例解释XSS的三种攻击</a></li>
+<li><a href="https://mp.weixin.qq.com/s/_2WeheJfK8ao3HrI4TXa8w">XSS攻防实战（附JS源码</a></li>
+</ul>
+<h4 id="工程化"><a href="#工程化" class="headerlink" title="工程化"></a>工程化</h4><ul>
+<li><a href="https://mp.weixin.qq.com/s/NH6EzRgFrhS6z2jYnI2E2Q">Gitlab-ci: 从零开始的前端自动化部署</a></li>
+</ul>
+]]></content>
+      <tags>
+        <tag>前端</tag>
+        <tag>收藏</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>npm包发布</title>
     <url>/2020/08/27/npm%E5%8C%85%E5%8F%91%E5%B8%83/</url>
     <content><![CDATA[<ol>
@@ -31,35 +60,6 @@
       </categories>
       <tags>
         <tag>node</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>frontend one piece</title>
-    <url>/2020/08/10/frontend-one-piece/</url>
-    <content><![CDATA[<h2 id="前端好文收藏向"><a href="#前端好文收藏向" class="headerlink" title="前端好文收藏向"></a>前端好文收藏向</h2><p>去寻找吧，前端大秘宝one piece，我把所有东西都留在那。前端就此进入大航海时代🐶</p>
-<h4 id="webpack"><a href="#webpack" class="headerlink" title="webpack"></a>webpack</h4><ul>
-<li><a href="https://mp.weixin.qq.com/s/6sV4wF5LwSXQhd-OKjwkOg">webpack最佳配置指北</a></li>
-<li><a href="https://mp.weixin.qq.com/s/o3flb6peR2VL9VAKYRQwZQ">玩转 webpack，使你的打包速度提升 90%</a></li>
-<li><a href="https://mp.weixin.qq.com/s/DJrmP4KStjujtydQoh1Ncg">你的 import 被 webpack 编译成了什么？</a></li>
-<li><a href="https://mp.weixin.qq.com/s/mcQuU7PWxczvnTGFw5W1FQ">Webpack漫谈</a></li>
-</ul>
-<h4 id="Vue"><a href="#Vue" class="headerlink" title="Vue"></a>Vue</h4><ul>
-<li><a href="https://mp.weixin.qq.com/s/tsaSfAged0yO7hKkGGQbtw">抄笔记：尤雨溪在Vue3.0 Beta直播里聊到了这些…</a></li>
-<li><a href="https://mp.weixin.qq.com/s/synjBGTEe1YVMSDGaTc5pQ">Vue开发必须知道的36个技巧</a></li>
-<li><a href="https://mp.weixin.qq.com/s/z5kAkyAzsj6erfWUQSN3UA">Vue源码解析，keep-alive是如何实现缓存的？</a></li>
-<li><a href="https://mp.weixin.qq.com/s/CPE11TSmXwtMVuDy5H_Bew">Vue超好玩的新特性：在CSS中引入JS变量</a></li>
-</ul>
-<h4 id="前端安全"><a href="#前端安全" class="headerlink" title="前端安全"></a>前端安全</h4><ul>
-<li><a href="https://mp.weixin.qq.com/s/w0N-jxJ7S6C7bFC8g3NP3A">为什么cookie会有httponly属性?真实案例解释XSS的三种攻击</a></li>
-<li><a href="https://mp.weixin.qq.com/s/_2WeheJfK8ao3HrI4TXa8w">XSS攻防实战（附JS源码</a></li>
-</ul>
-<h4 id="工程化"><a href="#工程化" class="headerlink" title="工程化"></a>工程化</h4><ul>
-<li><a href="https://mp.weixin.qq.com/s/NH6EzRgFrhS6z2jYnI2E2Q">Gitlab-ci: 从零开始的前端自动化部署</a></li>
-</ul>
-]]></content>
-      <tags>
-        <tag>前端</tag>
-        <tag>收藏</tag>
       </tags>
   </entry>
   <entry>

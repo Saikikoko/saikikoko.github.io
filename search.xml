@@ -1,57 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>npm包发布</title>
-    <url>/2020/08/27/npm%E5%8C%85%E5%8F%91%E5%B8%83/</url>
-    <content><![CDATA[<ol>
-<li><p>编写测试文件</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="built_in">exports</span>.sayHello = <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="string">&#x27;hello&#x27;</span>)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>使用<code>npm init</code>初始化包描述文件<code>package.json</code></p>
-</li>
-<li><p>注册包仓库账号</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm adduser</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>上传包</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm publish .</span><br></pre></td></tr></table></figure>
-
-<p>上传包的时候一定要用官方的镜像，否则会出错，这里推荐镜像管理工具<code>nrm</code></p>
-<p>⚠️注意发布的包不要和npm官方仓库的包重名，以及需要验证你的邮箱</p>
-</li>
-<li><p>下载测试发布的包</p>
-</li>
-<li><p>管理包权限</p>
-<p>通常你发布的包，只能自己维护，如果其他人也想有权限，可以使用下面的命令进行管理</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm owner ls &lt;package name&gt; </span><br><span class="line">npm owner add &lt;user&gt; &lt;package name&gt; </span><br><span class="line">npm owner rm &lt;user&gt; &lt;package name&gt;</span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>node</category>
-      </categories>
-      <tags>
-        <tag>node</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2020/08/01/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>frontend one piece</title>
     <url>/2020/08/10/frontend-one-piece/</url>
     <content><![CDATA[<h2 id="前端好文收藏向"><a href="#前端好文收藏向" class="headerlink" title="前端好文收藏向"></a>前端好文收藏向</h2><p>去寻找吧，前端大秘宝one piece，我把所有东西都留在那。前端就此进入大航海时代🐶</p>
@@ -79,6 +28,24 @@
         <tag>前端</tag>
         <tag>收藏</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2020/08/01/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
   </entry>
   <entry>
     <title>勿忘初心，方得始终</title>
@@ -134,6 +101,39 @@
       </categories>
       <tags>
         <tag>Vue</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>npm包发布</title>
+    <url>/2020/08/27/npm%E5%8C%85%E5%8F%91%E5%B8%83/</url>
+    <content><![CDATA[<ol>
+<li><p>编写测试文件</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="built_in">exports</span>.sayHello = <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="string">&#x27;hello&#x27;</span>)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>使用<code>npm init</code>初始化包描述文件<code>package.json</code></p>
+</li>
+<li><p>注册包仓库账号</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm adduser</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>上传包</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm publish .</span><br></pre></td></tr></table></figure>
+
+<p>上传包的时候一定要用官方的镜像，否则会出错，这里推荐镜像管理工具<code>nrm</code></p>
+<p>⚠️注意发布的包不要和npm官方仓库的包重名，以及需要验证你的邮箱</p>
+</li>
+<li><p>下载测试发布的包</p>
+</li>
+<li><p>管理包权限</p>
+<p>通常你发布的包，只能自己维护，如果其他人也想有权限，可以使用下面的命令进行管理</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm owner ls &lt;package name&gt; </span><br><span class="line">npm owner add &lt;user&gt; &lt;package name&gt; </span><br><span class="line">npm owner rm &lt;user&gt; &lt;package name&gt;</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>node</category>
+      </categories>
+      <tags>
+        <tag>node</tag>
       </tags>
   </entry>
 </search>

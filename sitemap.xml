@@ -74,6 +74,13 @@
 
   
   <url>
+    <loc>https://saikikoko.github.io/tags/node/</loc>
+    <lastmod>2020-09-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://saikikoko.github.io/tags/%E5%89%8D%E7%AB%AF/</loc>
     <lastmod>2020-09-11</lastmod>
     <changefreq>daily</changefreq>
@@ -82,13 +89,6 @@
   
   <url>
     <loc>https://saikikoko.github.io/tags/%E6%94%B6%E8%97%8F/</loc>
-    <lastmod>2020-09-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://saikikoko.github.io/tags/node/</loc>
     <lastmod>2020-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Saiki&#39;s home</title>
+  
+  <subtitle>快乐的鱼塘</subtitle>
+  <link href="https://saikikoko.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://saikikoko.github.io/"/>
+  <updated>2020-08-27T08:13:34.286Z</updated>
+  <id>https://saikikoko.github.io/</id>
+  
+  <author>
+    <name>Saiki</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>npm包发布</title>
+    <link href="https://saikikoko.github.io/2020/08/27/npm%E5%8C%85%E5%8F%91%E5%B8%83/"/>
+    <id>https://saikikoko.github.io/2020/08/27/npm%E5%8C%85%E5%8F%91%E5%B8%83/</id>
+    <published>2020-08-27T08:12:59.000Z</published>
+    <updated>2020-08-27T08:13:34.286Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li><p>编写测试文件</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">exports</span>.sayHello = <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="string">&#x27;hello&#x27;</span>)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li><li><p>使用<code>npm init</code>初始化包描述文件<code>package.json</code></p></li><li><p>注册包仓库账号</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm adduser</span><br></pre></td></tr></table></figure></li><li><p>上传包</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm publish .</span><br></pre></td></tr></table></figure><p>上传包的时候一定要用官方的镜像，否则会出错，这里推荐镜像管理工具<code>nrm</code></p><p>⚠️注意发布的包不要和npm官方仓库的包重名，以及需要验证你的邮箱</p></li><li><p>下载测试发布的包</p></li><li><p>管理包权限</p><p>通常你发布的包，只能自己维护，如果其他人也想有权限，可以使用下面的命令进行管理</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">npm owner ls &lt;package name&gt; </span><br><span class="line">npm owner add &lt;user&gt; &lt;package name&gt; </span><br><span class="line">npm owner rm &lt;user&gt; &lt;package name&gt;</span><br></pre></td></tr></table></figure></li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;编写测试文件&lt;/p&gt;
+&lt;figure class=&quot;highlight js&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/</summary>
+      
+    
+    
+    
+    <category term="node" scheme="https://saikikoko.github.io/categories/node/"/>
+    
+    
+    <category term="node" scheme="https://saikikoko.github.io/tags/node/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>frontend one piece</title>
+    <link href="https://saikikoko.github.io/2020/08/10/frontend-one-piece/"/>
+    <id>https://saikikoko.github.io/2020/08/10/frontend-one-piece/</id>
+    <published>2020-08-10T02:29:12.000Z</published>
+    <updated>2020-09-10T07:21:32.744Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="前端好文收藏向"><a href="#前端好文收藏向" class="headerlink" title="前端好文收藏向"></a>前端好文收藏向</h2><p>去寻找吧，前端大秘宝one piece，我把所有东西都留在那。前端就此进入大航海时代🐶</p><h4 id="webpack"><a href="#webpack" class="headerlink" title="webpack"></a>webpack</h4><ul><li><a href="https://mp.weixin.qq.com/s/6sV4wF5LwSXQhd-OKjwkOg">webpack最佳配置指北</a></li><li><a href="https://mp.weixin.qq.com/s/o3flb6peR2VL9VAKYRQwZQ">玩转 webpack，使你的打包速度提升 90%</a></li><li><a href="https://mp.weixin.qq.com/s/DJrmP4KStjujtydQoh1Ncg">你的 import 被 webpack 编译成了什么？</a></li><li><a href="https://mp.weixin.qq.com/s/mcQuU7PWxczvnTGFw5W1FQ">Webpack漫谈</a></li></ul><h4 id="Vue"><a href="#Vue" class="headerlink" title="Vue"></a>Vue</h4><ul><li><a href="https://mp.weixin.qq.com/s/tsaSfAged0yO7hKkGGQbtw">抄笔记：尤雨溪在Vue3.0 Beta直播里聊到了这些…</a></li><li><a href="https://mp.weixin.qq.com/s/synjBGTEe1YVMSDGaTc5pQ">Vue开发必须知道的36个技巧</a></li><li><a href="https://mp.weixin.qq.com/s/z5kAkyAzsj6erfWUQSN3UA">Vue源码解析，keep-alive是如何实现缓存的？</a></li><li><a href="https://mp.weixin.qq.com/s/CPE11TSmXwtMVuDy5H_Bew">Vue超好玩的新特性：在CSS中引入JS变量</a></li><li><a href="https://mp.weixin.qq.com/s/PSdxI6hjlhvJagltqFr7Jg">10个实用技巧让你的 Vue 代码更优雅</a></li></ul><h4 id="前端安全"><a href="#前端安全" class="headerlink" title="前端安全"></a>前端安全</h4><ul><li><a href="https://mp.weixin.qq.com/s/w0N-jxJ7S6C7bFC8g3NP3A">为什么cookie会有httponly属性?真实案例解释XSS的三种攻击</a></li><li><a href="https://mp.weixin.qq.com/s/_2WeheJfK8ao3HrI4TXa8w">XSS攻防实战（附JS源码</a></li></ul><h4 id="工程化"><a href="#工程化" class="headerlink" title="工程化"></a>工程化</h4><ul><li><a href="https://mp.weixin.qq.com/s/NH6EzRgFrhS6z2jYnI2E2Q">Gitlab-ci: 从零开始的前端自动化部署</a></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;前端好文收藏向&quot;&gt;&lt;a href=&quot;#前端好文收藏向&quot; class=&quot;headerlink&quot; title=&quot;前端好文收藏向&quot;&gt;&lt;/a&gt;前端好文收藏向&lt;/h2&gt;&lt;p&gt;去寻找吧，前端大秘宝one piece，我把所有东西都留在那。前端就此进入大航海时代🐶&lt;/p&gt;
+&lt;</summary>
+      
+    
+    
+    
+    
+    <category term="前端" scheme="https://saikikoko.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="收藏" scheme="https://saikikoko.github.io/tags/%E6%94%B6%E8%97%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>彩蛋🥚：手把手教你😏如何调试Vue源码</title>
+    <link href="https://saikikoko.github.io/2020/08/07/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E5%A6%82%E4%BD%95%E8%B0%83%E8%AF%95Vue%E6%BA%90%E7%A0%81/"/>
+    <id>https://saikikoko.github.io/2020/08/07/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E5%A6%82%E4%BD%95%E8%B0%83%E8%AF%95Vue%E6%BA%90%E7%A0%81/</id>
+    <published>2020-08-07T04:03:40.000Z</published>
+    <updated>2020-08-10T02:37:56.387Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="调试环境准备"><a href="#调试环境准备" class="headerlink" title="调试环境准备"></a>调试环境准备</h4><p>首先，我们要准备一下调试环境（这里不会细讲git有关的操作，推荐<a href="https://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html">阮一峰老师的教程</a>）。</p><ol><li><p>首先去Vue官方github仓库fork一份源码到自己的仓库（<a href="https://cloud.tencent.com/developer/article/1487508">没有账户，先自行创建一个</a>）</p></li><li><p>克隆一份源码到自己本地</p></li><li><p>打开项目，运行npm i安装依赖</p></li><li><p>打开package.json，找到script配置对象，在dev一栏改成如下配置</p><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&quot;dev&quot;: &quot;rollup -w -c scripts/config.js --sourcemap --environment TARGET:web-full-dev&quot;,</span><br></pre></td></tr></table></figure></li><li><p>运行npm run dev，它会帮助我们在dist目录下，打包一份带有映射关系的Vue.js文件，这对我们之后调试源码非常有帮助<br><img src="https://cdn.jsdelivr.net/gh/Saikikoko/blogImgStorage/20200807150244.png"><br>好了，如果以上步骤都完成了，我们就可以愉快的开始调试了，🚀起飞！</p></li></ol><h4 id="简单看看new-Vue干了什么"><a href="#简单看看new-Vue干了什么" class="headerlink" title="简单看看new Vue干了什么"></a>简单看看new Vue干了什么</h4><p>我们在项目example目下新建一个test目录，之后的测试用例都会写在该目录下。好了，开始动手开干吧！</p><p>编写一个<code>01-new Vue.html</code>文件</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">&quot;en&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;UTF-8&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;viewport&quot;</span> <span class="attr">content</span>=<span class="string">&quot;width=device-width, initial-scale=1.0&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">title</span>&gt;</span>Vue<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;../../dist/vue.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;app&quot;</span>&gt;</span></span><br><span class="line">    &#123;&#123;message&#125;&#125;</span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="javascript">    <span class="keyword">const</span> app = <span class="keyword">new</span> Vue(&#123;</span></span><br><span class="line"><span class="javascript">      el: <span class="string">&quot;#app&quot;</span>,</span></span><br><span class="line">      data: &#123;</span><br><span class="line"><span class="javascript">        message: <span class="string">&quot;hello Vue&quot;</span></span></span><br><span class="line">      &#125;</span><br><span class="line">    &#125;)</span><br><span class="line">  <span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br><span class="line"></span><br></pre></td></tr></table></figure><p>在浏览器中打开编写的测试用例，然后打开控制台，找到我们写的测试用例文件，然后在<code>new Vue</code>处打上断点，接着刷新浏览器，我们就进入调试模式了，具体的调试Chrome步骤，有不熟悉的可以看看这篇文章，<a href="https://juejin.im/post/6844903877532205064">Chrome 专家调试法</a></p><p>打断点，进入new Vue函数里面后，看到如下代码</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">Vue</span> (<span class="params">options</span>) </span>&#123;</span><br><span class="line">  <span class="keyword">if</span> (process.env.NODE_ENV !== <span class="string">&#x27;production&#x27;</span> &amp;&amp;</span><br><span class="line">    !(<span class="built_in">this</span> <span class="keyword">instanceof</span> Vue)</span><br><span class="line">  ) &#123;</span><br><span class="line">    warn(<span class="string">&#x27;Vue is a constructor and should be called with the `new` keyword&#x27;</span>)</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="built_in">this</span>._init(options)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>可以看到，改构造函数主要是调用<code>_init</code>函数，对传入的options进行了处理，好我们接着进入_init函数看一看</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br></pre></td><td class="code"><pre><span class="line">Vue.prototype._init = <span class="function"><span class="keyword">function</span> (<span class="params">options?: Object</span>) </span>&#123;</span><br><span class="line">  <span class="keyword">const</span> vm: Component = <span class="built_in">this</span></span><br><span class="line">  <span class="comment">// a uid</span></span><br><span class="line">  vm._uid = uid++</span><br><span class="line"></span><br><span class="line">  <span class="keyword">let</span> startTag, endTag</span><br><span class="line">  <span class="comment">/* istanbul ignore if */</span></span><br><span class="line">  <span class="keyword">if</span> (process.env.NODE_ENV !== <span class="string">&#x27;production&#x27;</span> &amp;&amp; config.performance &amp;&amp; mark) &#123;</span><br><span class="line">    startTag = <span class="string">`vue-perf-start:<span class="subst">$&#123;vm._uid&#125;</span>`</span></span><br><span class="line">    endTag = <span class="string">`vue-perf-end:<span class="subst">$&#123;vm._uid&#125;</span>`</span></span><br><span class="line">    mark(startTag)</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="comment">// a flag to avoid this being observed</span></span><br><span class="line">  vm._isVue = <span class="literal">true</span></span><br><span class="line">  <span class="comment">// merge options</span></span><br><span class="line">  <span class="keyword">if</span> (options &amp;&amp; options._isComponent) &#123;</span><br><span class="line">    <span class="comment">// optimize internal component instantiation</span></span><br><span class="line">    <span class="comment">// since dynamic options merging is pretty slow, and none of the</span></span><br><span class="line">    <span class="comment">// internal component options needs special treatment.</span></span><br><span class="line">    initInternalComponent(vm, options)</span><br><span class="line">  &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">    vm.$options = mergeOptions(</span><br><span class="line">      resolveConstructorOptions(vm.constructor),</span><br><span class="line">      options || &#123;&#125;,</span><br><span class="line">      vm</span><br><span class="line">    )</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="comment">/* istanbul ignore else */</span></span><br><span class="line">  <span class="keyword">if</span> (process.env.NODE_ENV !== <span class="string">&#x27;production&#x27;</span>) &#123;</span><br><span class="line">    initProxy(vm)</span><br><span class="line">  &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">    vm._renderProxy = vm</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="comment">// expose real self</span></span><br><span class="line">  vm._self = vm</span><br><span class="line">  initLifecycle(vm) <span class="comment">// init Lifecycle</span></span><br><span class="line">  initEvents(vm) <span class="comment">// initEvents</span></span><br><span class="line">  initRender(vm)</span><br><span class="line">  callHook(vm, <span class="string">&#x27;beforeCreate&#x27;</span>)</span><br><span class="line">  initInjections(vm) <span class="comment">// resolve injections before data/props</span></span><br><span class="line">  initState(vm) <span class="comment">// 初始化响应式</span></span><br><span class="line">  initProvide(vm) <span class="comment">// resolve provide after data/props</span></span><br><span class="line">  callHook(vm, <span class="string">&#x27;created&#x27;</span>)</span><br><span class="line"></span><br><span class="line">  <span class="comment">/* istanbul ignore if */</span></span><br><span class="line">  <span class="keyword">if</span> (process.env.NODE_ENV !== <span class="string">&#x27;production&#x27;</span> &amp;&amp; config.performance &amp;&amp; mark) &#123;</span><br><span class="line">    vm._name = formatComponentName(vm, <span class="literal">false</span>)</span><br><span class="line">    mark(endTag)</span><br><span class="line">    measure(<span class="string">`vue <span class="subst">$&#123;vm._name&#125;</span> init`</span>, startTag, endTag)</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">if</span> (vm.$options.el) &#123;</span><br><span class="line">    vm.$mount(vm.$options.el)</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>可以看到<code>_init</code>是绑定在Vue原型上，该方法进行了一系列处理，核心逻辑都在这段</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">initLifecycle(vm) <span class="comment">// init Lifecycle</span></span><br><span class="line">initEvents(vm) <span class="comment">// initEvents</span></span><br><span class="line">initRender(vm)</span><br><span class="line">callHook(vm, <span class="string">&#x27;beforeCreate&#x27;</span>)</span><br><span class="line">initInjections(vm) <span class="comment">// resolve injections before data/props</span></span><br><span class="line">initState(vm) <span class="comment">// 初始化响应式</span></span><br><span class="line">initProvide(vm) <span class="comment">// resolve provide after data/props</span></span><br><span class="line">callHook(vm, <span class="string">&#x27;created&#x27;</span>)</span><br></pre></td></tr></table></figure><p>它们进行了初始化生命周期，初始化时间，初始化渲染，初始化data、computed、methods、props等等。</p><p>最后面是执行了<code>$mount</code>挂载，他会把Vue渲染成真实dom并挂载到我们制定的el元素上。</p><h4 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h4><p>本文旨在帮助怎么进行Vue源码调试，具体的代码逻辑不做详解。授人以鱼不如授人以渔，大家加油吧💪。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h4 id=&quot;调试环境准备&quot;&gt;&lt;a href=&quot;#调试环境准备&quot; class=&quot;headerlink&quot; title=&quot;调试环境准备&quot;&gt;&lt;/a&gt;调试环境准备&lt;/h4&gt;&lt;p&gt;首先，我们要准备一下调试环境（这里不会细讲git有关的操作，推荐&lt;a href=&quot;https://www.r</summary>
+      
+    
+    
+    
+    <category term="Vue" scheme="https://saikikoko.github.io/categories/Vue/"/>
+    
+    
+    <category term="Vue" scheme="https://saikikoko.github.io/tags/Vue/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>勿忘初心，方得始终</title>
+    <link href="https://saikikoko.github.io/2020/08/02/%E5%8B%BF%E5%BF%98%E5%88%9D%E5%BF%83/"/>
+    <id>https://saikikoko.github.io/2020/08/02/%E5%8B%BF%E5%BF%98%E5%88%9D%E5%BF%83/</id>
+    <published>2020-08-02T11:51:06.000Z</published>
+    <updated>2020-08-07T17:54:04.713Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="简单聊一聊为什么打算开始写博客？"><a href="#简单聊一聊为什么打算开始写博客？" class="headerlink" title="简单聊一聊为什么打算开始写博客？"></a>简单聊一聊为什么打算开始写博客？</h4><p>大家可能都知道费曼学习法，费曼学习法宗旨就是已教促学。如果一件技术你不仅自己学会了，而且能把它言简意赅地表述出来并教给别人，那么你一定真正把它融会贯通了。</p><p>作为一个前端技术开发人员，大家都知道最近几年，前端社区蓬勃发展，各种新技术，新概念层出不穷，所以笔者想通过写文章的方式，来记录自己的学习过程，分享自己的学习经验，帮助自己掌握的更加深入的同时，期望也能帮助到浏览到我写的文章的同样渴望进步的你们。</p><p>希望以此为起点，砥砺前行！！！</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h4 id=&quot;简单聊一聊为什么打算开始写博客？&quot;&gt;&lt;a href=&quot;#简单聊一聊为什么打算开始写博客？&quot; class=&quot;headerlink&quot; title=&quot;简单聊一聊为什么打算开始写博客？&quot;&gt;&lt;/a&gt;简单聊一聊为什么打算开始写博客？&lt;/h4&gt;&lt;p&gt;大家可能都知道费曼学习法，费</summary>
+      
+    
+    
+    
+    <category term="杂谈" scheme="https://saikikoko.github.io/categories/%E6%9D%82%E8%B0%88/"/>
+    
+    
+    <category term="聊聊" scheme="https://saikikoko.github.io/tags/%E8%81%8A%E8%81%8A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://saikikoko.github.io/2020/08/01/hello-world/"/>
+    <id>https://saikikoko.github.io/2020/08/01/hello-world/</id>
+    <published>2020-08-01T08:50:01.347Z</published>
+    <updated>2020-08-07T18:00:31.699Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>

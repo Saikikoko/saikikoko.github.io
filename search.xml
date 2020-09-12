@@ -19,6 +19,38 @@
 ]]></content>
   </entry>
   <entry>
+    <title>frontend one piece</title>
+    <url>/2020/08/10/frontend-one-piece/</url>
+    <content><![CDATA[<p>收集各个前端社区优质的文章</p>
+<a id="more"></a>
+<h2 id="前端好文收藏向"><a href="#前端好文收藏向" class="headerlink" title="前端好文收藏向"></a>前端好文收藏向</h2><p>去寻找吧，前端大秘宝one piece，我把所有东西都留在那。前端就此进入大航海时代🐶</p>
+<h4 id="webpack"><a href="#webpack" class="headerlink" title="webpack"></a>webpack</h4><ul>
+<li><a href="https://mp.weixin.qq.com/s/6sV4wF5LwSXQhd-OKjwkOg">webpack最佳配置指北</a></li>
+<li><a href="https://mp.weixin.qq.com/s/o3flb6peR2VL9VAKYRQwZQ">玩转 webpack，使你的打包速度提升 90%</a></li>
+<li><a href="https://mp.weixin.qq.com/s/DJrmP4KStjujtydQoh1Ncg">你的 import 被 webpack 编译成了什么？</a></li>
+<li><a href="https://mp.weixin.qq.com/s/mcQuU7PWxczvnTGFw5W1FQ">Webpack漫谈</a></li>
+</ul>
+<h4 id="Vue"><a href="#Vue" class="headerlink" title="Vue"></a>Vue</h4><ul>
+<li><a href="https://mp.weixin.qq.com/s/tsaSfAged0yO7hKkGGQbtw">抄笔记：尤雨溪在Vue3.0 Beta直播里聊到了这些…</a></li>
+<li><a href="https://mp.weixin.qq.com/s/synjBGTEe1YVMSDGaTc5pQ">Vue开发必须知道的36个技巧</a></li>
+<li><a href="https://mp.weixin.qq.com/s/z5kAkyAzsj6erfWUQSN3UA">Vue源码解析，keep-alive是如何实现缓存的？</a></li>
+<li><a href="https://mp.weixin.qq.com/s/CPE11TSmXwtMVuDy5H_Bew">Vue超好玩的新特性：在CSS中引入JS变量</a></li>
+<li><a href="https://mp.weixin.qq.com/s/PSdxI6hjlhvJagltqFr7Jg">10个实用技巧让你的 Vue 代码更优雅</a></li>
+</ul>
+<h4 id="前端安全"><a href="#前端安全" class="headerlink" title="前端安全"></a>前端安全</h4><ul>
+<li><a href="https://mp.weixin.qq.com/s/w0N-jxJ7S6C7bFC8g3NP3A">为什么cookie会有httponly属性?真实案例解释XSS的三种攻击</a></li>
+<li><a href="https://mp.weixin.qq.com/s/_2WeheJfK8ao3HrI4TXa8w">XSS攻防实战（附JS源码</a></li>
+</ul>
+<h4 id="工程化"><a href="#工程化" class="headerlink" title="工程化"></a>工程化</h4><ul>
+<li><a href="https://mp.weixin.qq.com/s/NH6EzRgFrhS6z2jYnI2E2Q">Gitlab-ci: 从零开始的前端自动化部署</a></li>
+</ul>
+]]></content>
+      <tags>
+        <tag>前端</tag>
+        <tag>收藏</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>npm包发布</title>
     <url>/2020/08/27/npm%E5%8C%85%E5%8F%91%E5%B8%83/</url>
     <content><![CDATA[<ol>
@@ -106,40 +138,25 @@
         <category>Vue</category>
       </categories>
       <tags>
-        <tag>Vue</tag>
         <tag>前端</tag>
+        <tag>Vue</tag>
       </tags>
   </entry>
   <entry>
-    <title>frontend one piece</title>
-    <url>/2020/08/10/frontend-one-piece/</url>
-    <content><![CDATA[<p>收集各个前端社区优质的文章</p>
+    <title>每日一道算法题</title>
+    <url>/2020/09/12/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%81%93%E7%AE%97%E6%B3%95%E9%A2%98/</url>
+    <content><![CDATA[<p>每日打卡算法题</p>
 <a id="more"></a>
-<h2 id="前端好文收藏向"><a href="#前端好文收藏向" class="headerlink" title="前端好文收藏向"></a>前端好文收藏向</h2><p>去寻找吧，前端大秘宝one piece，我把所有东西都留在那。前端就此进入大航海时代🐶</p>
-<h4 id="webpack"><a href="#webpack" class="headerlink" title="webpack"></a>webpack</h4><ul>
-<li><a href="https://mp.weixin.qq.com/s/6sV4wF5LwSXQhd-OKjwkOg">webpack最佳配置指北</a></li>
-<li><a href="https://mp.weixin.qq.com/s/o3flb6peR2VL9VAKYRQwZQ">玩转 webpack，使你的打包速度提升 90%</a></li>
-<li><a href="https://mp.weixin.qq.com/s/DJrmP4KStjujtydQoh1Ncg">你的 import 被 webpack 编译成了什么？</a></li>
-<li><a href="https://mp.weixin.qq.com/s/mcQuU7PWxczvnTGFw5W1FQ">Webpack漫谈</a></li>
-</ul>
-<h4 id="Vue"><a href="#Vue" class="headerlink" title="Vue"></a>Vue</h4><ul>
-<li><a href="https://mp.weixin.qq.com/s/tsaSfAged0yO7hKkGGQbtw">抄笔记：尤雨溪在Vue3.0 Beta直播里聊到了这些…</a></li>
-<li><a href="https://mp.weixin.qq.com/s/synjBGTEe1YVMSDGaTc5pQ">Vue开发必须知道的36个技巧</a></li>
-<li><a href="https://mp.weixin.qq.com/s/z5kAkyAzsj6erfWUQSN3UA">Vue源码解析，keep-alive是如何实现缓存的？</a></li>
-<li><a href="https://mp.weixin.qq.com/s/CPE11TSmXwtMVuDy5H_Bew">Vue超好玩的新特性：在CSS中引入JS变量</a></li>
-<li><a href="https://mp.weixin.qq.com/s/PSdxI6hjlhvJagltqFr7Jg">10个实用技巧让你的 Vue 代码更优雅</a></li>
-</ul>
-<h4 id="前端安全"><a href="#前端安全" class="headerlink" title="前端安全"></a>前端安全</h4><ul>
-<li><a href="https://mp.weixin.qq.com/s/w0N-jxJ7S6C7bFC8g3NP3A">为什么cookie会有httponly属性?真实案例解释XSS的三种攻击</a></li>
-<li><a href="https://mp.weixin.qq.com/s/_2WeheJfK8ao3HrI4TXa8w">XSS攻防实战（附JS源码</a></li>
-</ul>
-<h4 id="工程化"><a href="#工程化" class="headerlink" title="工程化"></a>工程化</h4><ul>
-<li><a href="https://mp.weixin.qq.com/s/NH6EzRgFrhS6z2jYnI2E2Q">Gitlab-ci: 从零开始的前端自动化部署</a></li>
-</ul>
+<ol>
+<li><p><a href="">两数之和</a></p>
+</li>
+<li><p><a href="https://leetcode-cn.com/problems/valid-parentheses/submissions/">有效的括号</a> </p>
+</li>
+</ol>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@param <span class="type">&#123;string&#125;</span> <span class="variable">s</span></span></span></span><br><span class="line"><span class="comment"> * <span class="doctag">@return <span class="type">&#123;boolean&#125;</span></span></span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="keyword">var</span> isValid = <span class="function"><span class="keyword">function</span>(<span class="params">s</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">const</span> stack = []</span><br><span class="line">    <span class="keyword">const</span> map = &#123;</span><br><span class="line">        <span class="string">&#x27;(&#x27;</span>: <span class="string">&#x27;)&#x27;</span>,</span><br><span class="line">        <span class="string">&#x27;&#123;&#x27;</span>: <span class="string">&#x27;&#125;&#x27;</span>,</span><br><span class="line">        <span class="string">&#x27;[&#x27;</span>: <span class="string">&#x27;]&#x27;</span></span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">let</span> i=<span class="number">0</span>;i&lt;s.length;i++) &#123;</span><br><span class="line">        <span class="keyword">if</span>(s[i] <span class="keyword">in</span> map) &#123;</span><br><span class="line">            stack.push(s[i])</span><br><span class="line">        &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">            <span class="keyword">if</span>(map[stack.pop()] !== s[i]) &#123;</span><br><span class="line">                <span class="keyword">return</span> <span class="literal">false</span></span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> !stack.length</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
 ]]></content>
       <tags>
-        <tag>前端</tag>
-        <tag>收藏</tag>
+        <tag>算法</tag>
       </tags>
   </entry>
 </search>

@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://saikikoko.github.io/2020/08/07/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E5%A6%82%E4%BD%95%E8%B0%83%E8%AF%95Vue%E6%BA%90%E7%A0%81/</loc>
+    
+    <lastmod>2020-09-12</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://saikikoko.github.io/tags/index.html</loc>
+    
+    <lastmod>2020-09-12</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://saikikoko.github.io/categories/index.html</loc>
     
     <lastmod>2020-09-12</lastmod>
@@ -10,13 +24,6 @@
   
   <url>
     <loc>https://saikikoko.github.io/2020/08/10/frontend-one-piece/</loc>
-    
-    <lastmod>2020-09-12</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://saikikoko.github.io/2020/08/07/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E5%A6%82%E4%BD%95%E8%B0%83%E8%AF%95Vue%E6%BA%90%E7%A0%81/</loc>
     
     <lastmod>2020-09-12</lastmod>
     
@@ -51,13 +58,6 @@
   </url>
   
   <url>
-    <loc>https://saikikoko.github.io/tags/index.html</loc>
-    
-    <lastmod>2020-08-02</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://saikikoko.github.io/search/index.html</loc>
     
     <lastmod>2020-08-01</lastmod>
@@ -72,13 +72,6 @@
     <priority>1.0</priority>
   </url>
 
-  
-  <url>
-    <loc>https://saikikoko.github.io/tags/node/</loc>
-    <lastmod>2020-09-12</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
   
   <url>
     <loc>https://saikikoko.github.io/tags/%E5%89%8D%E7%AB%AF/</loc>
@@ -102,6 +95,13 @@
   </url>
   
   <url>
+    <loc>https://saikikoko.github.io/tags/node/</loc>
+    <lastmod>2020-09-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://saikikoko.github.io/tags/Vue/</loc>
     <lastmod>2020-09-12</lastmod>
     <changefreq>daily</changefreq>
@@ -111,14 +111,14 @@
 
   
   <url>
-    <loc>https://saikikoko.github.io/categories/node/</loc>
+    <loc>https://saikikoko.github.io/categories/%E6%9D%82%E8%B0%88/</loc>
     <lastmod>2020-09-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://saikikoko.github.io/categories/%E6%9D%82%E8%B0%88/</loc>
+    <loc>https://saikikoko.github.io/categories/node/</loc>
     <lastmod>2020-09-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>

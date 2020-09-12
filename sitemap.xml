@@ -88,13 +88,6 @@
   </url>
   
   <url>
-    <loc>https://saikikoko.github.io/tags/Vue/</loc>
-    <lastmod>2020-09-12</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://saikikoko.github.io/tags/node/</loc>
     <lastmod>2020-09-12</lastmod>
     <changefreq>daily</changefreq>
@@ -108,14 +101,14 @@
     <priority>0.6</priority>
   </url>
   
-
-  
   <url>
-    <loc>https://saikikoko.github.io/categories/Vue/</loc>
+    <loc>https://saikikoko.github.io/tags/Vue/</loc>
     <lastmod>2020-09-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
+  
+
   
   <url>
     <loc>https://saikikoko.github.io/categories/node/</loc>
@@ -126,6 +119,13 @@
   
   <url>
     <loc>https://saikikoko.github.io/categories/%E6%9D%82%E8%B0%88/</loc>
+    <lastmod>2020-09-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://saikikoko.github.io/categories/Vue/</loc>
     <lastmod>2020-09-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>

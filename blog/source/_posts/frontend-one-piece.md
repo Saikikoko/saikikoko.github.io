@@ -38,3 +38,6 @@ cover:
 
 #### 工程化
 - [Gitlab-ci: 从零开始的前端自动化部署](https://mp.weixin.qq.com/s/NH6EzRgFrhS6z2jYnI2E2Q)
+
+#### 业务
+-[划线高亮和插入笔记的技术实现](https://mp.weixin.qq.com/s/wz7b19Nsa9jt6Ke75gcW-w)

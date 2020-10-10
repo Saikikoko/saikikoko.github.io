@@ -27,7 +27,12 @@
 <h4 id="工程化"><a href="#工程化" class="headerlink" title="工程化"></a>工程化</h4><ul>
 <li><a href="https://mp.weixin.qq.com/s/NH6EzRgFrhS6z2jYnI2E2Q">Gitlab-ci: 从零开始的前端自动化部署</a></li>
 </ul>
-<h4 id="业务"><a href="#业务" class="headerlink" title="业务"></a>业务</h4><p>-<a href="https://mp.weixin.qq.com/s/wz7b19Nsa9jt6Ke75gcW-w">划线高亮和插入笔记的技术实现</a></p>
+<h4 id="业务"><a href="#业务" class="headerlink" title="业务"></a>业务</h4><ul>
+<li><a href="https://mp.weixin.qq.com/s/wz7b19Nsa9jt6Ke75gcW-w">划线高亮和插入笔记的技术实现</a></li>
+</ul>
+<h4 id="JS"><a href="#JS" class="headerlink" title="JS"></a>JS</h4><ul>
+<li><a href="https://mp.weixin.qq.com/s/tTnStR6BiAHihnaNlXBB1Q">正则极简教程，再也不会学了忘</a></li>
+</ul>
 ]]></content>
       <tags>
         <tag>前端</tag>
@@ -181,5 +186,22 @@
       <tags>
         <tag>算法</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>require.context的使用</title>
+    <url>/2020/09/29/vue%E7%9A%84%E4%B8%80%E4%BA%9B%E9%AA%9A%E6%93%8D%E4%BD%9C/</url>
+    <content><![CDATA[<p>介绍require.context的使用</p>
+<a id="more"></a>
+<p>使用场景：大规模重复劳动，手动引入同一个目录下的文件或资源等</p>
+<p><code>require.context</code>api介绍</p>
+<ul>
+<li>directory 要扫描的目录</li>
+<li>useSudirectories 是否需要扫描子目录</li>
+<li>regExp 匹配规则</li>
+</ul>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="built_in">require</span>.context(directory, useSudirectories = <span class="literal">false</span>, regExp =  <span class="regexp">/^\.\//</span>) &#123;&#125;</span><br></pre></td></tr></table></figure>
+
+
+]]></content>
   </entry>
 </search>

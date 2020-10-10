@@ -6,7 +6,7 @@
   <link href="https://saikikoko.github.io/atom.xml" rel="self"/>
   
   <link href="https://saikikoko.github.io/"/>
-  <updated>2020-09-27T08:19:23.694Z</updated>
+  <updated>2020-09-29T08:11:22.480Z</updated>
   <id>https://saikikoko.github.io/</id>
   
   <author>
@@ -15,6 +15,23 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>require.context的使用</title>
+    <link href="https://saikikoko.github.io/2020/09/29/vue%E7%9A%84%E4%B8%80%E4%BA%9B%E9%AA%9A%E6%93%8D%E4%BD%9C/"/>
+    <id>https://saikikoko.github.io/2020/09/29/vue%E7%9A%84%E4%B8%80%E4%BA%9B%E9%AA%9A%E6%93%8D%E4%BD%9C/</id>
+    <published>2020-09-29T07:47:40.000Z</published>
+    <updated>2020-09-29T08:11:22.480Z</updated>
+    
+    <content type="html"><![CDATA[<p>介绍require.context的使用</p><a id="more"></a><p>使用场景：大规模重复劳动，手动引入同一个目录下的文件或资源等</p><p><code>require.context</code>api介绍</p><ul><li>directory 要扫描的目录</li><li>useSudirectories 是否需要扫描子目录</li><li>regExp 匹配规则</li></ul><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">require</span>.context(directory, useSudirectories = <span class="literal">false</span>, regExp =  <span class="regexp">/^\.\//</span>) &#123;&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;介绍require.context的使用&lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>每日一道算法题</title>
@@ -61,9 +78,9 @@
     <link href="https://saikikoko.github.io/2020/08/10/frontend-one-piece/"/>
     <id>https://saikikoko.github.io/2020/08/10/frontend-one-piece/</id>
     <published>2020-08-10T02:29:12.000Z</published>
-    <updated>2020-09-27T02:35:34.753Z</updated>
+    <updated>2020-10-10T00:38:50.008Z</updated>
     
-    <content type="html"><![CDATA[<p>收集各个前端社区优质的文章</p><a id="more"></a><h2 id="前端好文收藏向"><a href="#前端好文收藏向" class="headerlink" title="前端好文收藏向"></a>前端好文收藏向</h2><p>去寻找吧，前端大秘宝one piece，我把所有东西都留在那。前端就此进入大航海时代🐶</p><h4 id="webpack"><a href="#webpack" class="headerlink" title="webpack"></a>webpack</h4><ul><li><a href="https://mp.weixin.qq.com/s/6sV4wF5LwSXQhd-OKjwkOg">webpack最佳配置指北</a></li><li><a href="https://mp.weixin.qq.com/s/o3flb6peR2VL9VAKYRQwZQ">玩转 webpack，使你的打包速度提升 90%</a></li><li><a href="https://mp.weixin.qq.com/s/DJrmP4KStjujtydQoh1Ncg">你的 import 被 webpack 编译成了什么？</a></li><li><a href="https://mp.weixin.qq.com/s/mcQuU7PWxczvnTGFw5W1FQ">Webpack漫谈</a></li></ul><h4 id="Vue"><a href="#Vue" class="headerlink" title="Vue"></a>Vue</h4><ul><li><a href="https://mp.weixin.qq.com/s/tsaSfAged0yO7hKkGGQbtw">抄笔记：尤雨溪在Vue3.0 Beta直播里聊到了这些…</a></li><li><a href="https://mp.weixin.qq.com/s/synjBGTEe1YVMSDGaTc5pQ">Vue开发必须知道的36个技巧</a></li><li><a href="https://mp.weixin.qq.com/s/z5kAkyAzsj6erfWUQSN3UA">Vue源码解析，keep-alive是如何实现缓存的？</a></li><li><a href="https://mp.weixin.qq.com/s/CPE11TSmXwtMVuDy5H_Bew">Vue超好玩的新特性：在CSS中引入JS变量</a></li><li><a href="https://mp.weixin.qq.com/s/PSdxI6hjlhvJagltqFr7Jg">10个实用技巧让你的 Vue 代码更优雅</a></li><li><a href="https://mp.weixin.qq.com/s/WCfHdXCTnM71UT9K3LaiVA">一篇干货，轻松上手Vue.js 3.0</a></li></ul><h4 id="前端安全"><a href="#前端安全" class="headerlink" title="前端安全"></a>前端安全</h4><ul><li><a href="https://mp.weixin.qq.com/s/w0N-jxJ7S6C7bFC8g3NP3A">为什么cookie会有httponly属性?真实案例解释XSS的三种攻击</a></li><li><a href="https://mp.weixin.qq.com/s/_2WeheJfK8ao3HrI4TXa8w">XSS攻防实战（附JS源码</a></li></ul><h4 id="工程化"><a href="#工程化" class="headerlink" title="工程化"></a>工程化</h4><ul><li><a href="https://mp.weixin.qq.com/s/NH6EzRgFrhS6z2jYnI2E2Q">Gitlab-ci: 从零开始的前端自动化部署</a></li></ul><h4 id="业务"><a href="#业务" class="headerlink" title="业务"></a>业务</h4><p>-<a href="https://mp.weixin.qq.com/s/wz7b19Nsa9jt6Ke75gcW-w">划线高亮和插入笔记的技术实现</a></p>]]></content>
+    <content type="html"><![CDATA[<p>收集各个前端社区优质的文章</p><a id="more"></a><h2 id="前端好文收藏向"><a href="#前端好文收藏向" class="headerlink" title="前端好文收藏向"></a>前端好文收藏向</h2><p>去寻找吧，前端大秘宝one piece，我把所有东西都留在那。前端就此进入大航海时代🐶</p><h4 id="webpack"><a href="#webpack" class="headerlink" title="webpack"></a>webpack</h4><ul><li><a href="https://mp.weixin.qq.com/s/6sV4wF5LwSXQhd-OKjwkOg">webpack最佳配置指北</a></li><li><a href="https://mp.weixin.qq.com/s/o3flb6peR2VL9VAKYRQwZQ">玩转 webpack，使你的打包速度提升 90%</a></li><li><a href="https://mp.weixin.qq.com/s/DJrmP4KStjujtydQoh1Ncg">你的 import 被 webpack 编译成了什么？</a></li><li><a href="https://mp.weixin.qq.com/s/mcQuU7PWxczvnTGFw5W1FQ">Webpack漫谈</a></li></ul><h4 id="Vue"><a href="#Vue" class="headerlink" title="Vue"></a>Vue</h4><ul><li><a href="https://mp.weixin.qq.com/s/tsaSfAged0yO7hKkGGQbtw">抄笔记：尤雨溪在Vue3.0 Beta直播里聊到了这些…</a></li><li><a href="https://mp.weixin.qq.com/s/synjBGTEe1YVMSDGaTc5pQ">Vue开发必须知道的36个技巧</a></li><li><a href="https://mp.weixin.qq.com/s/z5kAkyAzsj6erfWUQSN3UA">Vue源码解析，keep-alive是如何实现缓存的？</a></li><li><a href="https://mp.weixin.qq.com/s/CPE11TSmXwtMVuDy5H_Bew">Vue超好玩的新特性：在CSS中引入JS变量</a></li><li><a href="https://mp.weixin.qq.com/s/PSdxI6hjlhvJagltqFr7Jg">10个实用技巧让你的 Vue 代码更优雅</a></li><li><a href="https://mp.weixin.qq.com/s/WCfHdXCTnM71UT9K3LaiVA">一篇干货，轻松上手Vue.js 3.0</a></li></ul><h4 id="前端安全"><a href="#前端安全" class="headerlink" title="前端安全"></a>前端安全</h4><ul><li><a href="https://mp.weixin.qq.com/s/w0N-jxJ7S6C7bFC8g3NP3A">为什么cookie会有httponly属性?真实案例解释XSS的三种攻击</a></li><li><a href="https://mp.weixin.qq.com/s/_2WeheJfK8ao3HrI4TXa8w">XSS攻防实战（附JS源码</a></li></ul><h4 id="工程化"><a href="#工程化" class="headerlink" title="工程化"></a>工程化</h4><ul><li><a href="https://mp.weixin.qq.com/s/NH6EzRgFrhS6z2jYnI2E2Q">Gitlab-ci: 从零开始的前端自动化部署</a></li></ul><h4 id="业务"><a href="#业务" class="headerlink" title="业务"></a>业务</h4><ul><li><a href="https://mp.weixin.qq.com/s/wz7b19Nsa9jt6Ke75gcW-w">划线高亮和插入笔记的技术实现</a></li></ul><h4 id="JS"><a href="#JS" class="headerlink" title="JS"></a>JS</h4><ul><li><a href="https://mp.weixin.qq.com/s/tTnStR6BiAHihnaNlXBB1Q">正则极简教程，再也不会学了忘</a></li></ul>]]></content>
     
     
     <summary type="html">&lt;p&gt;收集各个前端社区优质的文章&lt;/p&gt;</summary>

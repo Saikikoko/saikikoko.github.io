@@ -19,6 +19,9 @@
 <li><a href="https://mp.weixin.qq.com/s/CPE11TSmXwtMVuDy5H_Bew">Vue超好玩的新特性：在CSS中引入JS变量</a></li>
 <li><a href="https://mp.weixin.qq.com/s/PSdxI6hjlhvJagltqFr7Jg">10个实用技巧让你的 Vue 代码更优雅</a></li>
 <li><a href="https://mp.weixin.qq.com/s/WCfHdXCTnM71UT9K3LaiVA">一篇干货，轻松上手Vue.js 3.0</a></li>
+<li><a href="https://mp.weixin.qq.com/s/tME3wwPXTtv4DTDGLsvtLw">一文让你30分钟快速掌握Vue3</a></li>
+<li><a href="https://mp.weixin.qq.com/s/Yxj-avIaci1l7Qn1WDN2fA">活用async/await，让Vue变得更好用的装饰器！</a></li>
+<li><a href="https://mp.weixin.qq.com/s/uR9vv8N9EMBbcaT4csGUWw">34条我能告诉你的Vue之实操篇</a></li>
 </ul>
 <h4 id="前端安全"><a href="#前端安全" class="headerlink" title="前端安全"></a>前端安全</h4><ul>
 <li><a href="https://mp.weixin.qq.com/s/w0N-jxJ7S6C7bFC8g3NP3A">为什么cookie会有httponly属性?真实案例解释XSS的三种攻击</a></li>
@@ -188,17 +191,23 @@
 
 <p><a href="https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/">二叉树最近公共祖先</a></p>
 <figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@param <span class="type">&#123;TreeNode&#125;</span> <span class="variable">root</span></span></span></span><br><span class="line"><span class="comment"> * <span class="doctag">@param <span class="type">&#123;TreeNode&#125;</span> <span class="variable">p</span></span></span></span><br><span class="line"><span class="comment"> * <span class="doctag">@param <span class="type">&#123;TreeNode&#125;</span> <span class="variable">q</span></span></span></span><br><span class="line"><span class="comment"> * <span class="doctag">@return <span class="type">&#123;TreeNode&#125;</span></span></span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="keyword">var</span> lowestCommonAncestor = <span class="function"><span class="keyword">function</span>(<span class="params">root, p, q</span>) </span>&#123;</span><br><span class="line">    <span class="comment">// 递归</span></span><br><span class="line">    <span class="keyword">if</span>(root == <span class="literal">null</span> || root == p || root == q) &#123;</span><br><span class="line">        <span class="keyword">return</span> root</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">let</span> left = lowestCommonAncestor(root.left, p, q)</span><br><span class="line">    <span class="keyword">let</span> right = lowestCommonAncestor(root.right, p, q)</span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span>(left == <span class="literal">null</span>) &#123;</span><br><span class="line">        <span class="keyword">return</span> right</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">if</span>(right == <span class="literal">null</span>) &#123;</span><br><span class="line">        <span class="keyword">return</span> left</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> root</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+<h4 id="二分法查找"><a href="#二分法查找" class="headerlink" title="二分法查找"></a>二分法查找</h4><ol>
+<li>二分法依赖顺序表结构</li>
+<li>二分法查找针对的是有序数据</li>
+<li>数据量太大、太小不适合二分法</li>
+</ol>
 ]]></content>
       <tags>
         <tag>算法</tag>
       </tags>
   </entry>
   <entry>
-    <title>require.context的使用</title>
+    <title>vue开发中的一些骚操作</title>
     <url>/2020/09/29/vue%E7%9A%84%E4%B8%80%E4%BA%9B%E9%AA%9A%E6%93%8D%E4%BD%9C/</url>
-    <content><![CDATA[<p>介绍require.context的使用</p>
+    <content><![CDATA[<p>vue开发中一些常用的技巧</p>
 <a id="more"></a>
-<p>使用场景：大规模重复劳动，手动引入同一个目录下的文件或资源等</p>
+<h4 id="介绍require-context的使用"><a href="#介绍require-context的使用" class="headerlink" title="介绍require.context的使用"></a>介绍require.context的使用</h4><p>使用场景：大规模重复劳动，手动引入同一个目录下的文件或资源等</p>
 <p><code>require.context</code>api介绍</p>
 <ul>
 <li>directory 要扫描的目录</li>
@@ -206,6 +215,31 @@
 <li>regExp 匹配规则</li>
 </ul>
 <figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="built_in">require</span>.context(directory, useSudirectories = <span class="literal">false</span>, regExp =  <span class="regexp">/^\.\//</span>) &#123;&#125;</span><br></pre></td></tr></table></figure>
+
+<h4 id="通过Vue的自定义指令来控制按钮的权限"><a href="#通过Vue的自定义指令来控制按钮的权限" class="headerlink" title="通过Vue的自定义指令来控制按钮的权限"></a>通过Vue的自定义指令来控制按钮的权限</h4><p><code>Vue.directive( id, [definition\] )</code></p>
+<ul>
+<li><p><strong>参数</strong>：</p>
+<ul>
+<li><code>&#123;string&#125; id</code></li>
+<li><code>&#123;Function | Object&#125; [definition]</code></li>
+</ul>
+</li>
+<li><p><strong>使用</strong></p>
+</li>
+</ul>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 注册</span></span><br><span class="line">Vue.directive(<span class="string">&#x27;my-directive&#x27;</span>, &#123;</span><br><span class="line">  bind: <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;&#125;, <span class="comment">// 只调用一次，指令第一次绑定到元素时调用。在这里可以进行一次性的初始化设置</span></span><br><span class="line">  inserted: <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;&#125;, <span class="comment">// 被绑定元素插入父节点时调用 (仅保证父节点存在，但不一定已被插入文档中)</span></span><br><span class="line">  update: <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;&#125;, <span class="comment">// 所在组件的 VNode 更新时调用</span></span><br><span class="line">  componentUpdated: <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;&#125;, <span class="comment">// 指令所在组件的 VNode 及其子 VNode 全部更新后调用</span></span><br><span class="line">  unbind: <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;&#125; <span class="comment">// 只调用一次，指令与元素解绑时调用</span></span><br><span class="line">&#125;)</span><br><span class="line"></span><br><span class="line"><span class="comment">// 注册 (指令函数)</span></span><br><span class="line">Vue.directive(<span class="string">&#x27;my-directive&#x27;</span>, <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">  <span class="comment">// 这里将会被 `bind` 和 `update` 调用</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><a href="https://cn.vuejs.org/v2/guide/custom-directive.html">更多具体的参见vue官方文档</a></p>
+<p>编写一个<code>v-permission</code>指令来控制按钮的显隐，有权限的显示，否则则隐藏</p>
+<p>结合插件的写法</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// permission</span></span><br><span class="line"><span class="keyword">const</span> Auth = [<span class="string">&#x27;admin&#x27;</span>]</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> checkAuth = <span class="function"><span class="keyword">function</span>(<span class="params">authList</span>) </span>&#123;</span><br><span class="line">  <span class="keyword">return</span> Auth.some(<span class="function"><span class="params">item</span> =&gt;</span> authList.includes(item))</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">install</span>(<span class="params">Vue</span>) </span>&#123;</span><br><span class="line">     Vue.directive(<span class="string">&#x27;permission&#x27;</span>, &#123;</span><br><span class="line">    inserted(el, binding) &#123;</span><br><span class="line">      <span class="keyword">if</span>(!checkAuth(binding.value)) &#123;</span><br><span class="line">        el.parentNode &amp;&amp; el.parentNode.removeChild(el)</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;) </span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">export</span> <span class="keyword">default</span> &#123;install&#125;</span><br></pre></td></tr></table></figure>
+
+<p>然后在入口文件引入</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">//main.js</span></span><br><span class="line"><span class="keyword">import</span> Permission form <span class="string">&#x27;./permission.js&#x27;</span></span><br><span class="line">Vue.use(Permission)</span><br></pre></td></tr></table></figure>
+
+<p>之后在<code>.vue</code>文件使用</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;button v-permission&#x3D;&quot;[&#39;user&#39;]&quot;&gt;add&lt;&#x2F;button&gt;</span><br><span class="line"></span><br><span class="line">&lt;!--</span><br><span class="line">&lt;button v-permission&#x3D;&quot;[&#39;admin&#39;]&quot;&gt;add&lt;&#x2F;button&gt;</span><br><span class="line">--&gt;</span><br></pre></td></tr></table></figure>
+
 
 
 ]]></content>

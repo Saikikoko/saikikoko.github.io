@@ -35,6 +35,7 @@ cover:
 - [活用async/await，让Vue变得更好用的装饰器！](https://mp.weixin.qq.com/s/Yxj-avIaci1l7Qn1WDN2fA)
 - [34条我能告诉你的Vue之实操篇](https://mp.weixin.qq.com/s/uR9vv8N9EMBbcaT4csGUWw)
 - [揭秘Vuejs九个优化技巧](https://mp.weixin.qq.com/s/7u3hHp4zT7aTQTvQ6JjM-w)
+- [前端权限管理](https://mp.weixin.qq.com/s/u8gcINHOrrc8XfRqyjPiag)
 
 #### 前端安全
 
@@ -44,6 +45,7 @@ cover:
 
 #### 工程化
 - [Gitlab-ci: 从零开始的前端自动化部署](https://mp.weixin.qq.com/s/NH6EzRgFrhS6z2jYnI2E2Q)
+- [99% 开发者没弄明白的 babel 知识](https://mp.weixin.qq.com/s/sJMydobsSxzxj2SECwcr_A)
 
 #### 业务
 - [划线高亮和插入笔记的技术实现](https://mp.weixin.qq.com/s/wz7b19Nsa9jt6Ke75gcW-w)

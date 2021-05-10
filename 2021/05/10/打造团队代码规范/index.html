@@ -1,0 +1,92 @@
+<!DOCTYPE html><html lang="zh" id="main-container"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title> 打造团队代码规范 · Saiki's home</title><meta name="description" content="打造团队代码规范 - Saiki"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="/fire.png"><link rel="stylesheet" href="/css/apollo.css"><link rel="search" type="application/opensearchdescription+xml" href="https://Saikikoko.github.io/atom.xml" title="Saiki's home"><meta name="generator" content="Hexo 5.0.0"><link rel="alternate" href="/atom.xml" title="Saiki's home" type="application/atom+xml">
+</head><body><div class="wrap"><header><a href="/" class="logo-link"><img src="/fire.png" alt="logo"></a><ul class="nav nav-list"><li class="nav-list-item"><a href="/" target="_self" class="nav-list-link">首页</a></li><li class="nav-list-item"><a href="/archives/" target="_self" class="nav-list-link">归档</a></li><li class="nav-list-item"><a href="https://github.com/Saikikoko" target="_blank" class="nav-list-link">GITHUB</a></li><li class="nav-list-item"><a href="/atom.xml" target="_self" class="nav-list-link">订阅</a></li></ul></header><main class="container"><div class="post"><article class="post-block"><h1 class="post-title">打造团队代码规范</h1><div class="post-info">May 10, 2021</div><div class="post-content"><p>打造团队代码规范</p>
+<a id="more"></a>
+<h1 id="打造团队代码规范"><a href="#打造团队代码规范" class="headerlink" title="打造团队代码规范"></a>打造团队代码规范</h1><ul>
+<li>EditorConfig</li>
+<li>Prettier</li>
+<li>ESLint</li>
+<li>Husky</li>
+<li>Lint-staged</li>
+<li>Commitizen</li>
+</ul>
+<h2 id="EditorConfig"><a href="#EditorConfig" class="headerlink" title="EditorConfig"></a><a target="_blank" rel="noopener" href="https://editorconfig.org/">EditorConfig</a></h2><p>帮助一个团队多个开发人员在使用不同IDE和编辑器开发同一个项目时，能保持同样的编码风格</p>
+<h2 id="Prettier"><a href="#Prettier" class="headerlink" title="Prettier"></a><a target="_blank" rel="noopener" href="https://prettier.io/docs/en/options.html">Prettier</a></h2><p>一款十分好用的代码格式化工具</p>
+<p>通过编写<code>.prettierrc</code></p>
+<h2 id="ESLint"><a href="#ESLint" class="headerlink" title="ESLint"></a><a target="_blank" rel="noopener" href="https://cn.eslint.org/">ESLint</a></h2><p>一个检查代码质量和风格的工具，并且可以支持自动修复</p>
+<ol>
+<li>安装</li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i eslint -D</span><br></pre></td></tr></table></figure>
+
+<ol start="2">
+<li>配置</li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npx eslint --init</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://gitee.com/Saikikoko/blog-image-storage/raw/master/img/20210509135215.png" alt="image-20210509135204307"></p>
+<ol start="3">
+<li>第二步完成后，会自动生成一个<code>.eslintrc.js</code>文件</li>
+</ol>
+<p>如有额外的规则，可以在文件中的<code>rules</code>进行追加</p>
+<ol start="4">
+<li>vscode中下载插件</li>
+<li>如果需要保存文件时，自动进行修复，则在vscode配置中，添加如下配置</li>
+</ol>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">&quot;editor.codeActionsOnSave&quot;</span>: &#123;</span><br><span class="line">    <span class="string">&quot;source.fixAll.eslint&quot;</span>: <span class="literal">true</span></span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>
+
+<ol start="6">
+<li><p>解决<code>prettier</code>和<code>ESLint</code>的冲突</p>
+<p>a. 下载插件</p>
+</li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm install -D --save-exact prettier</span><br><span class="line">npm i eslint-plugin-prettier eslint-config-prettier -D</span><br></pre></td></tr></table></figure>
+
+<p>​    b. 添加插件</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">module</span>.exports = &#123;</span><br><span class="line">  ...</span><br><span class="line">  <span class="keyword">extends</span>: [</span><br><span class="line">    <span class="string">&#x27;plugin:vue/essential&#x27;</span>,</span><br><span class="line">    <span class="string">&#x27;airbnb-base&#x27;</span>,</span><br><span class="line">    <span class="string">&#x27;plugin:prettier/recommended&#x27;</span> <span class="comment">// 添加 prettier 插件</span></span><br><span class="line">  ],</span><br><span class="line">  ...</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="husky"><a href="#husky" class="headerlink" title="husky"></a><a target="_blank" rel="noopener" href="https://github.com/typicode/husky">husky</a></h2><p><code>husky</code>: 一套git hook工具，可以在git提交时配合ESLint进行代码格式和质量校验</p>
+<ol>
+<li>配置<code>husky</code></li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npx husky-init &amp;&amp; npm install</span><br></pre></td></tr></table></figure>
+
+<p>上述命令会自动安装husky依赖，在项目根目录创建<code>.husky</code>目录，目录下有一个<code>pre-commit</code>文件，里面有一个<code>npm test</code>的默认指令，它在git提交时会运行，除此之外，还在<code>package.json</code>的<code>script</code>添加一条命令<code>husky install</code></p>
+<ol start="2">
+<li>修改<code>pre-commit</code>指令</li>
+</ol>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">eslint --fix ./src --ext .vue,.js,.ts</span><br></pre></td></tr></table></figure>
+
+<p>配置完以后，git提交时，会检索所有文件，但是我们只想检索我们修改的文件，这时候需要另一个工具<code>lint-staged</code>配合</p>
+<h2 id="lint-staged"><a href="#lint-staged" class="headerlink" title="lint-staged"></a><a target="_blank" rel="noopener" href="https://github.com/okonet/lint-staged">lint-staged</a></h2><p>它可以让 husky 的 <code>hook</code> 触发的命令只作用于 <code>git add</code>那些文件（即 git 暂存区的文件），而不会影响到其他文件</p>
+<ol>
+<li>安装</li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i lint-staged -D</span><br></pre></td></tr></table></figure>
+
+<ol start="2">
+<li>添加<code>package.json</code></li>
+</ol>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&quot;lint-staged&quot;: &#123;</span><br><span class="line">  &quot;*.&#123;vue,js,ts&#125;&quot;: &quot;eslint --fix&quot;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<ol start="3">
+<li>修改 <code>.husky/pre-commit</code> hook 的触发命令为：<code>npx lint-staged</code></li>
+</ol>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npx lint-staged</span><br></pre></td></tr></table></figure>
+
+<h4 id="和sourceTree配合使用"><a href="#和sourceTree配合使用" class="headerlink" title="和sourceTree配合使用"></a>和<code>sourceTree</code>配合使用</h4><p>正常情况下，使用sourceTree提交代码，触发husky钩子的时候，会提示报错，<code>npx</code>命令没有找到，此时在<code>pre-commit</code>文件添加一条代码就行</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">export</span> PATH=/usr/<span class="built_in">local</span>/bin:<span class="variable">$PATH</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="规范commit提交信息"><a href="#规范commit提交信息" class="headerlink" title="规范commit提交信息"></a>规范commit提交信息</h2><ol>
+<li>安装<code>Commitizen</code></li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install commitizen -D</span><br></pre></td></tr></table></figure>
+
+<ol start="2">
+<li>初始化项目</li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npx commitizen init cz-conventional-changelog --save-dev --save-exact</span><br></pre></td></tr></table></figure>
+
+<ol start="3">
+<li>使用<code>git cz</code>提交</li>
+</ol>
+</div></article></div></main><footer><div class="paginator"><a href="/2020/09/29/vue%E7%9A%84%E4%B8%80%E4%BA%9B%E9%AA%9A%E6%93%8D%E4%BD%9C/" class="next">下一篇</a></div><div class="copyright"><p>© 2020 - 2021 <a href="https://Saikikoko.github.io">Saiki</a>, powered by <a href="https://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/pinggod/hexo-theme-apollo" target="_blank">hexo-theme-apollo</a>.</p></div></footer></div><script async src="//cdn.bootcss.com/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML" integrity="sha384-crwIf/BuaWM9rM65iM+dWFldgQ1Un8jWZMuh3puxb8TOY9+linwLoI7ZHZT+aekW" crossorigin="anonymous"></script></body></html>

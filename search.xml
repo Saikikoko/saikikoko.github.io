@@ -432,8 +432,10 @@
   <entry>
     <title>一文彻底搞懂slot</title>
     <url>/2021/06/03/%E4%B8%80%E6%96%87%E5%BD%BB%E5%BA%95%E6%90%9E%E6%87%82slot/</url>
-    <content><![CDATA[<a id="more"></a>
-<h1 id="一文彻底搞懂slot"><a href="#一文彻底搞懂slot" class="headerlink" title="一文彻底搞懂slot"></a>一文彻底搞懂slot</h1><p>什么时候会用到插槽？</p>
+    <content><![CDATA[<p>slot具体用法，以及渲染函数和jsx语法</p>
+<a id="more"></a>
+
+<p>什么时候会用到插槽？</p>
 <p>有了<code>props</code>，为什么还需要<code>slot</code>插槽?</p>
 <p>插槽更灵活，即插即用，不占空间</p>
 <h2 id="模板语法"><a href="#模板语法" class="headerlink" title="模板语法"></a>模板语法</h2><h4 id="具名插槽"><a href="#具名插槽" class="headerlink" title="具名插槽"></a>具名插槽</h4><p>假如有个子组件如下</p>

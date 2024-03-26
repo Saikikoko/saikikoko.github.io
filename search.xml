@@ -30,18 +30,21 @@
 <li><a href="https://mp.weixin.qq.com/s/_2WeheJfK8ao3HrI4TXa8w">XSS攻防实战（附JS源码</a></li>
 <li><a href="https://mp.weixin.qq.com/s/TtIxPRzxTz_gG4OqKGutxw">常见登录鉴权方案</a></li>
 <li><a href="https://mp.weixin.qq.com/s/8icBQurPVBZhMStJlyPOOA">常见网站攻击技术，一篇打包全部带走！</a></li>
+<li><a href="https://mp.weixin.qq.com/s/WHL9zCsBXQpO4AzYE8JHxw">聊聊前端安全之CSRF</a></li>
 </ul>
 <h4 id="工程化"><a href="#工程化" class="headerlink" title="工程化"></a>工程化</h4><ul>
 <li><a href="https://mp.weixin.qq.com/s/NH6EzRgFrhS6z2jYnI2E2Q">Gitlab-ci: 从零开始的前端自动化部署</a></li>
 <li><a href="https://mp.weixin.qq.com/s/sJMydobsSxzxj2SECwcr_A">99% 开发者没弄明白的 babel 知识</a></li>
 <li><a href="https://mp.weixin.qq.com/s/_U6kk9MRlBNKg7pAy8ChIw">下一代前端构建工具 - Vite 2.x 源码级分析</a></li>
 <li><a href="https://mp.weixin.qq.com/s/Np-tDI84_VTJPHAIAl8aGQ">关于前端大管家 package.json，你知道多少？</a></li>
+<li><a href="https://mp.weixin.qq.com/s/RcnBRaNwH9WVaEbbLPTL3Q">浏览器跨 Tab 窗口通信原理及应用实践</a></li>
 </ul>
 <h4 id="业务"><a href="#业务" class="headerlink" title="业务"></a>业务</h4><ul>
 <li><a href="https://mp.weixin.qq.com/s/wz7b19Nsa9jt6Ke75gcW-w">划线高亮和插入笔记的技术实现</a></li>
 <li><a href="https://mp.weixin.qq.com/s/3hXLSOQC-B5JGmkOaYjgqw">不使用第三方库怎么实现【前端引导页】功能？</a></li>
 <li><a href="https://mp.weixin.qq.com/s/vLi0T8DilnlBN_gFjktIGg">(10月最新) 前端图形学实战: 从零开发几何画板(vue3 + vite版)</a></li>
 <li><a href="https://mp.weixin.qq.com/s/KMFarLh0Xjl-NYmkxFZRrg">前端主题切换方案详解</a></li>
+<li><a href="https://mp.weixin.qq.com/s/yVnEnA1IhVde1OiNlGKN-w">深入浅出音视频与 WebRTC</a></li>
 </ul>
 <h4 id="JS"><a href="#JS" class="headerlink" title="JS"></a>JS</h4><ul>
 <li><a href="https://mp.weixin.qq.com/s/tTnStR6BiAHihnaNlXBB1Q">正则极简教程，再也不会学了忘</a></li>
@@ -50,6 +53,7 @@
 <li><a href="https://mp.weixin.qq.com/s/KPgzXkCYfkstNF_kvtMvNg">文件上传，搞懂这8种场景就够了</a></li>
 <li><a href="https://mp.weixin.qq.com/s/69v_xQ93o_MGph1XqDdjTQ">谈谈JS二进制：File、Blob、FileReader、ArrayBuffer、Base64</a></li>
 <li><a href="https://mp.weixin.qq.com/s/SRNt3V1CCtyYgQSc6QSjZA">面试官：请设计一个不能操作 DOM 和调接口的环境</a></li>
+<li><a href="https://mp.weixin.qq.com/s/AmV22FF0kUvGk5SYLCu6fw">前端文件流、切片下载和上传：优化文件传输效率与用户体验</a></li>
 </ul>
 <h4 id="Node"><a href="#Node" class="headerlink" title="Node"></a>Node</h4><ul>
 <li><a href="https://mp.weixin.qq.com/s/JmAmVXj3GAki4IQIJm6vnw">深入理解洋葱模型中间件机制</a></li>
@@ -66,6 +70,7 @@
 <li><a href="https://mp.weixin.qq.com/s/DiEuJa8QXt2Ne2DJRW7NIA">当 Vite 遇上微前端</a></li>
 <li><a href="https://mp.weixin.qq.com/s/ajq-eGu4DBLbHXEm2HGV8Q">一文搞懂得物前端监控</a> </li>
 <li><a href="https://mp.weixin.qq.com/s/ZQ1KP569I6MmNmkV8TNAug">Chrome开发者建议你这样调试web应用</a></li>
+<li><a href="https://mp.weixin.qq.com/s/Hxl1bEKXoSoa1kYNDe8KyQ?forceh5=1">谈谈跨域</a></li>
 </ul>
 <h4 id="脚手架"><a href="#脚手架" class="headerlink" title="脚手架"></a>脚手架</h4><ul>
 <li><a href="https://juejin.cn/post/6879265583205089287">前端CLI脚手架思路解析-从0到1搭建</a></li>
@@ -73,6 +78,10 @@
 </ul>
 <h4 id="计算机网络"><a href="#计算机网络" class="headerlink" title="计算机网络"></a>计算机网络</h4><ul>
 <li><a href="https://mp.weixin.qq.com/s/JBcnEBSX1RqMnF7DUkU5VA">GET和POST请求的本质区别</a></li>
+<li><a href="https://mp.weixin.qq.com/s/hMxT2IUTHZYi1KWozETswg">三年前端还不会配置Nginx，被老板打了，今天一口气学完</a></li>
+</ul>
+<h4 id="工具"><a href="#工具" class="headerlink" title="工具"></a>工具</h4><ul>
+<li><a href="https://mp.weixin.qq.com/s/Vcm4m5HQ7P6lc0q0nIlYfg">相见恨晚的前端开发利器</a></li>
 </ul>
 ]]></content>
       <tags>
